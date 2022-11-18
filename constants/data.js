@@ -32,8 +32,8 @@ const userData = {
     title:
       "I'm a software engineer that loves to build products and applications that will help benefit the community",
     description: [
-      `My first use of a terminal was in 1992, trying play games with DOS prompt.  As the years progress, I would use hints of web development here and there.  Many stories of teenagers customizing their myspace page to later editing blogs on wordpress`,
-      `Growing up in tech, I was always working on the business side of products.  I would be the one to grow our users and give feedback to the dev teams.  I always tought I had a knack for coding and I was right.`,
+      `My first use of a terminal was in 1992, trying play games with DOS prompt.  As the years progress, I would use hints of web development here and there.  Like many stories of my peers I would customize my myspace page to later editing blogs on wordpress`,
+      `Working up in tech, is exciting, but I was always on business side of products.  I would be the one to grow our users and give feedback to the dev team.  I always tought I had a knack for coding and I was right!!`,
       `My apprenticeship at General Assembly have given me the experience to create projects.  I've been coding in React, Node.js, Express, MongoDB, MySQL, Bootstrap, Tailwind, Javascript, HTML, CSS, & Python`,
     ],
     currentProject: "AD Precision",
