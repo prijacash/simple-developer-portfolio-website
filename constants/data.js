@@ -87,7 +87,7 @@ const userData = {
     "https://docs.google.com/document/d/1UvjA-Ue6rGHsNs7tKLyBrmKeW-u4oYSmmmYesMX8ehI/view?usp=sharing",
   socialLinks: {
 
-    twitter: "https://twitter.com/prijcash",
+    twitter: "https://twitter.com/prijacash",
     linkedin: "https://linkedin.com/in/prijacash",
     github: "https://github.com/prijacash",
 
