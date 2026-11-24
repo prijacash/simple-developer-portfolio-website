@@ -2,18 +2,20 @@
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "26.x"
+  },
   "scripts": {
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "next": "10.x",
-    "next-themes": "0.0.15",
-    "react": "17.x",
-    "react-dom": "17.x",
-    "react-rough-notation": "^1.0.1"
+    "next": "^16.4.6",
+    "next-themes": "^0.4.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-rough-notation": "^1.0.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
