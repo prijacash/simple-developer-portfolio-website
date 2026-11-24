@@ -1,7 +1,7 @@
 const userData = {
   name: "Prija Cash",
   fullName: "Prija Phaphouampheng",
-  designation: "Family man & creator",
+  designation: "Founder",
   avatarUrl: "/avatar.png",
   siteUrl: "https://simple-developer-portfolio-website-sigma.vercel.app",
   email: "prijacash@gmail.com",
@@ -9,37 +9,12 @@ const userData = {
   address: "Westminster, California",
   ventures: [
     {
-      title: "Family Man Era",
-      label: "@familymanera",
-      summary:
-        "A family and lifestyle brand. Shorts on humor, cooking, and pickleball, posted to TikTok, Instagram, and YouTube. Filmed on a phone, edited in CapCut.",
-      links: [
-        { label: "TikTok", href: "https://www.tiktok.com/@familymanera" },
-        {
-          label: "Instagram",
-          href: "https://www.instagram.com/familymanera",
-        },
-        {
-          label: "YouTube",
-          href: "https://www.youtube.com/@familymanera",
-        },
-      ],
-    },
-    {
       title: "Blueprint AI Studio",
       label: "Local businesses",
       summary:
         "An AI web agency for local businesses. One-page sites and Google listings for restaurants and salons.",
       links: [
         { label: "Website", href: "https://blueprintaistudio.com/" },
-      ],
-    },
-    {
-      title: "@prijacash",
-      label: "YouTube",
-      summary: "My main YouTube channel.",
-      links: [
-        { label: "YouTube", href: "https://www.youtube.com/@prijacash" },
       ],
     },
     {
@@ -54,24 +29,15 @@ const userData = {
     },
   ],
   about: {
-    lead: "I'm Prija Cash. Family man, creator, and builder. Right now that's",
+    lead: "I'm Prija Cash, founder of",
     description: [
       "My full name is Prija Phaphouampheng.",
-      "I created Family Man Era, a family and lifestyle brand. The shorts are humor, cooking, and pickleball, on TikTok, Instagram, and YouTube at @familymanera. I film on my phone and edit in CapCut, and I have an extensive video editing background.",
       "I founded Blueprint AI Studio, a local-business AI web agency. Blueprint builds one-page sites and Google listings for businesses like restaurants and salons.",
       "I've launched meme projects on BNB Chain and Base. I'm the art director for CHOMP, a memecoin on Base, and I'm active in crypto circles on X.",
       "I run a multi-agent AI workflow with Cursor and AI agents. It saves about 20 hours a week and lets me go from an idea to shipped content, sites, and scripts the same day.",
     ],
   },
   experience: [
-    {
-      title: "Creator",
-      company: "Family Man Era",
-      year: "Present",
-      companyLink: "https://www.youtube.com/@familymanera",
-      era: "now",
-      desc: "Family and lifestyle shorts on TikTok, Instagram, and YouTube (@familymanera): humor, cooking, and pickleball. Filmed on a phone, edited in CapCut.",
-    },
     {
       title: "Founder",
       company: "Blueprint AI Studio",
@@ -125,10 +91,6 @@ const userData = {
   socialLinks: {
     twitter: "https://twitter.com/prijacash",
     linkedin: "https://www.linkedin.com/in/prijacash/",
-    youtube: "https://www.youtube.com/@prijacash",
-    instagram: "https://www.instagram.com/familymanera",
-    tiktok: "https://www.tiktok.com/@familymanera",
-    familyYoutube: "https://www.youtube.com/@familymanera",
     blueprint: "https://blueprintaistudio.com/",
   },
 };

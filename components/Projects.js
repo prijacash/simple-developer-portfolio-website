@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto px-4">
           <p className="pt-16 text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl">
-            Family content, a studio for local businesses, and work in crypto.
+            A studio for local businesses, and work in crypto.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-12 pb-24 md:pb-40">
             {userData.ventures.map((venture, idx) => (

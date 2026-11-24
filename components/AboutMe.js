@@ -3,10 +3,6 @@ import userData from "@constants/data";
 
 const socialLinks = [
   { name: "LinkedIn", href: userData.socialLinks.linkedin },
-  { name: "YouTube", href: userData.socialLinks.youtube },
-  { name: "TikTok", href: userData.socialLinks.tiktok },
-  { name: "Instagram", href: userData.socialLinks.instagram },
-  { name: "Family Man Era", href: userData.socialLinks.familyYoutube },
   { name: "Blueprint AI Studio", href: userData.socialLinks.blueprint },
   { name: "X", href: userData.socialLinks.twitter },
 ];
@@ -26,15 +22,6 @@ export default function AboutMe() {
             style={{ lineHeight: "3rem" }}
           >
             {userData.about.lead}{" "}
-            <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.socialLinks.familyYoutube}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Family Man Era
-            </a>{" "}
-            and{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.socialLinks.blueprint}
@@ -104,8 +91,7 @@ export default function AboutMe() {
               Tools
             </h2>
             <p className="text-xl text-gray-700 dark:text-gray-300 mt-8">
-              Phone and CapCut for the videos. Cursor and AI agents for the
-              rest.
+              Cursor and AI agents.
             </p>
           </div>
         </div>

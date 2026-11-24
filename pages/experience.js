@@ -6,7 +6,7 @@ export default function experience() {
   return (
     <ContainerBlock
       title="Experience — Prija Cash"
-      description="What Prija Cash is making now: Family Man Era, Blueprint AI Studio, crypto, and an AI workflow."
+      description="What Prija Cash is making now: Blueprint AI Studio, crypto, and an AI workflow."
     >
       <Experience />
     </ContainerBlock>
