@@ -4,7 +4,10 @@ import AboutMe from "../components/AboutMe";
 
 export default function about() {
   return (
-    <ContainerBlock>
+    <ContainerBlock
+      title="About — Prija Cash"
+      description="Prija Cash creates Family Man Era, founded Blueprint AI Studio, and works in crypto and AI."
+    >
       <AboutMe />
     </ContainerBlock>
   );

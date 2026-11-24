@@ -4,7 +4,10 @@ import Projects from "../components/Projects";
 
 export default function projects() {
   return (
-    <ContainerBlock title="Projects - Prija Cash">
+    <ContainerBlock
+      title="Ventures — Prija Cash"
+      description="Family Man Era, Blueprint AI Studio, YouTube, and crypto work by Prija Cash."
+    >
       <Projects />
     </ContainerBlock>
   );

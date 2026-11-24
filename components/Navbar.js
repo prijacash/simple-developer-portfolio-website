@@ -6,7 +6,6 @@ import userData from "@constants/data";
 
 export default function Navbar() {
   const router = useRouter();
-  console.log(router.asPath);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -15,7 +14,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto py-10 md:py-20">
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
       <div className="flex  md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
@@ -67,7 +66,7 @@ export default function Navbar() {
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
-              Projects
+              Ventures
               {router.asPath === "/projects" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -143,6 +142,9 @@ export default function Navbar() {
 
           <a
             href={userData.socialLinks.twitter}
+            aria-label="X"
+            target="_blank"
+            rel="noreferrer"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -158,6 +160,9 @@ export default function Navbar() {
           </a>
           <a
             href={userData.socialLinks.linkedin}
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -205,7 +210,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="space-x-8 block md:hidden mt-4">
+      <div className="flex flex-wrap gap-x-6 gap-y-2 md:hidden mt-4">
         <Link href="/about">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             About
@@ -213,7 +218,7 @@ export default function Navbar() {
         </Link>
         <Link href="/projects">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Projects
+            Ventures
           </a>
         </Link>
         <Link href="/experience">

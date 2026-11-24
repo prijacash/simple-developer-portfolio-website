@@ -3,14 +3,16 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import userData from "@constants/data";
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Prija Cash - Developer, Crypto User, Traveler",
-    description: `Software Engineer with a passion for Crypto.`,
-    image: "/avatar.png",
+    title: "Prija Cash",
+    description:
+      "Prija Cash (Prija Phaphouampheng). Family man, creator of Family Man Era, and founder of Blueprint AI Studio.",
+    image: `${userData.siteUrl}/avatar.png`,
     type: "website",
     ...customMeta,
   };
@@ -22,19 +24,16 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
+          content={`${userData.siteUrl}${router.asPath}`}
         />
-        <link
-          rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
-        />
+        <link rel="canonical" href={`${userData.siteUrl}${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Prija Cash" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@mannupaaji" />
+        <meta name="twitter:site" content="@prijacash" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
