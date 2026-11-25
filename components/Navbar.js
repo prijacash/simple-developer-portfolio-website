@@ -19,10 +19,13 @@ export default function Navbar() {
         {/* Logo / Home / Text */}
 
         <div className="flex flex-col">
-          <Link href="/" className="max-w-xs sm:max-w-sm">
-            <h1 className="font-semibold text-base sm:text-lg md:text-xl leading-snug dark:text-gray-100">
-              {userData.headline}
+          <Link href="/">
+            <h1 className="font-semibold text-xl dark:text-gray-100">
+              {userData.name}
             </h1>
+            <p className="text-sm sm:text-base font-light text-gray-500 dark:text-gray-300 mt-1 max-w-xs sm:max-w-none">
+              {userData.tagline}
+            </p>
           </Link>
         </div>
 

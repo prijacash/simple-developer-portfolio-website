@@ -4,7 +4,7 @@ import userData from "@constants/data";
 import VentureCard from "./VentureCard";
 
 export default function Ventures() {
-  const featured = userData.ventures.slice(0, 3);
+  const featured = userData.ventures;
 
   return (
     <div className="bg-[#F1F1F1] dark:bg-gray-900">
