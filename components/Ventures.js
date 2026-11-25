@@ -10,7 +10,7 @@ export default function Ventures() {
     <div className="bg-[#F1F1F1] dark:bg-gray-900">
       <div className="max-w-6xl mx-auto px-4">
         <p className="pt-12 md:pt-16 text-base md:text-lg text-gray-600 dark:text-gray-300 text-center lg:text-left">
-          Founder of Blueprint AI Studio.
+          AI implementation for Blueprint AI Studio.
         </p>
         <header className="flex flex-col md:flex-row justify-between items-center pt-8 md:pt-10 mb-8 md:mb-12">
           <h1 className="text-6xl lg:text-8xl max-w-lg font-bold text-gray-500 my-8 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left">

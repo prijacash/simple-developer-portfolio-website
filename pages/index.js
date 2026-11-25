@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <ContainerBlock
       title="Prija Cash"
-      description="Prija Cash (Prija Phaphouampheng), founder of Blueprint AI Studio."
+      description="Prija Cash (Prija Phaphouampheng). Builder doing AI implementation for Blueprint AI Studio."
     >
       <Hero />
       <Ventures />

@@ -11,7 +11,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Prija Cash",
     description:
-      "Prija Cash (Prija Phaphouampheng), founder of Blueprint AI Studio.",
+      "Prija Cash (Prija Phaphouampheng). Builder doing AI implementation for Blueprint AI Studio.",
     image: `${userData.siteUrl}/avatar.png`,
     type: "website",
     ...customMeta,

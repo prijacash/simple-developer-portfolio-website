@@ -1,7 +1,7 @@
 const userData = {
   name: "Prija Cash",
   fullName: "Prija Phaphouampheng",
-  designation: "Founder",
+  designation: "Builder",
   avatarUrl: "/avatar.png",
   siteUrl: "https://simple-developer-portfolio-website-sigma.vercel.app",
   email: "prijacash@gmail.com",
@@ -10,7 +10,7 @@ const userData = {
   ventures: [
     {
       title: "Blueprint AI Studio",
-      label: "Local businesses",
+      label: "AI implementation",
       summary:
         "An AI web agency for local businesses. One-page sites and Google listings for restaurants and salons.",
       links: [
@@ -19,27 +19,27 @@ const userData = {
     },
     {
       title: "Meme projects",
-      label: "BNB Chain & Base",
+      label: "Content creator / producer",
       summary: "Meme projects I launched on BNB Chain and Base.",
     },
     {
       title: "CHOMP",
-      label: "Art director",
+      label: "Creative lead",
       summary: "A memecoin on Base. I direct the art.",
     },
   ],
   about: {
-    lead: "I'm Prija Cash, founder of",
+    lead: "I'm Prija Cash. I build with",
     description: [
       "My full name is Prija Phaphouampheng.",
-      "I founded Blueprint AI Studio, a local-business AI web agency. Blueprint builds one-page sites and Google listings for businesses like restaurants and salons.",
-      "I've launched meme projects on BNB Chain and Base. I'm the art director for CHOMP, a memecoin on Base, and I'm active in crypto circles on X.",
+      "Blueprint AI Studio is a local-business AI web agency. I do the AI implementation: one-page sites and Google listings for restaurants and salons.",
+      "I've launched meme projects on BNB Chain and Base. I'm the creative lead for CHOMP, a memecoin on Base, and I'm active in crypto circles on X.",
       "I run a multi-agent AI workflow with Cursor and AI agents. It saves about 20 hours a week and lets me go from an idea to shipped content, sites, and scripts the same day.",
     ],
   },
   experience: [
     {
-      title: "Founder",
+      title: "AI implementation",
       company: "Blueprint AI Studio",
       year: "Present",
       companyLink: "https://blueprintaistudio.com/",
@@ -47,14 +47,14 @@ const userData = {
       desc: "A local-business AI web agency. One-page sites and Google listings for restaurants and salons.",
     },
     {
-      title: "Meme projects",
+      title: "Content creator / producer",
       company: "BNB Chain & Base",
       year: "Present",
       era: "now",
       desc: "Launched meme projects on BNB Chain and Base.",
     },
     {
-      title: "Art Director",
+      title: "Creative lead",
       company: "CHOMP",
       year: "Present",
       era: "now",
