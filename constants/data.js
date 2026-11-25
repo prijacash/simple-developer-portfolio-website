@@ -20,7 +20,7 @@ const userData = {
       title: "CHOMP",
       label: "Built on Base",
       summary:
-        "Co-founder and head of operations, 2024 - Present. Marketing, day-to-day ops, and art direction. A developer handled the backend.",
+        "Co-founder and head of operations, Apr 2024 - Nov 2026. Marketing, day-to-day ops, and art direction. A developer handled the backend.",
       links: [{ label: "Experience", href: "/experience" }],
     },
     {
@@ -35,7 +35,7 @@ const userData = {
     lead: "I'm Prija Cash.",
     description: [
       "My full name is Prija Phaphouampheng.",
-      "I've launched meme projects on BNB Chain and Base. At CHOMP, a memecoin built on Base, I handle marketing, day-to-day operations, and art direction. A developer handled the backend. I'm active in crypto circles on X.",
+      "I've launched meme projects on BNB Chain and Base. At CHOMP, a memecoin built on Base, I ran marketing, day-to-day operations, and art direction from Apr 2024 to Nov 2026. A developer handled the backend. I'm active in crypto circles on X.",
     ],
     skill:
       "Runs a personal AI agent workflow that saves ~20 hours a week across content, scripts, and site builds.",
@@ -44,7 +44,7 @@ const userData = {
     {
       title: "Co-founder & Head of Operations",
       company: "CHOMP (built on Base)",
-      year: "2024 - Present",
+      year: "Apr 2024 - Nov 2026",
       detail: "United States · Remote",
       era: "now",
       points: [
