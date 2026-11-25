@@ -6,7 +6,6 @@ import userData from "@constants/data";
 
 export default function Navbar() {
   const router = useRouter();
-  console.log(router.asPath);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -15,32 +14,30 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto py-10 md:py-20">
-      <div className="flex  md:flex-row justify-between items-center">
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         {/* Logo / Home / Text */}
 
         <div className="flex flex-col">
           <Link href="/">
-            <a>
-              <h1 className="font-semibold text-xl dark:text-gray-100">
-                {userData.name}
-              </h1>
-              <p className="text-base font-light text-gray-500 dark:text-gray-300">
-                {userData.designation}
-              </p>
-            </a>
+            <h1 className="font-semibold text-xl dark:text-gray-100">
+              {userData.name}
+            </h1>
+            <p className="text-sm sm:text-base font-light text-gray-500 dark:text-gray-300 mt-1">
+              {userData.tagline}
+            </p>
           </Link>
         </div>
 
         <div className="space-x-8 hidden md:block">
-          <Link href="/about">
-            <a
-              className={`text-base  ${
-                router.asPath === "/about"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
+          <Link
+            href="/about"
+            className={`text-base  ${
+              router.asPath === "/about"
+                ? "text-gray-800 font-bold dark:text-gray-400"
+                : "text-gray-600 dark:text-gray-300 font-normal "
+            }`}
+          >
               About{" "}
               {router.asPath === "/about" && (
                 <svg
@@ -57,17 +54,16 @@ export default function Navbar() {
                   />
                 </svg>
               )}
-            </a>
           </Link>
-          <Link href="/projects">
-            <a
-              className={`text-base  ${
-                router.asPath === "/projects"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
-              Projects
+          <Link
+            href="/projects"
+            className={`text-base  ${
+              router.asPath === "/projects"
+                ? "text-gray-800 font-bold dark:text-gray-400"
+                : "text-gray-600 dark:text-gray-300 font-normal "
+            }`}
+          >
+              Web3 Work
               {router.asPath === "/projects" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,16 +79,15 @@ export default function Navbar() {
                   />
                 </svg>
               )}
-            </a>
           </Link>
-          <Link href="/experience">
-            <a
-              className={`text-base  ${
-                router.asPath === "/experience"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
+          <Link
+            href="/experience"
+            className={`text-base  ${
+              router.asPath === "/experience"
+                ? "text-gray-800 font-bold dark:text-gray-400"
+                : "text-gray-600 dark:text-gray-300 font-normal "
+            }`}
+          >
               Experience{" "}
               {router.asPath === "/experience" && (
                 <svg
@@ -109,16 +104,15 @@ export default function Navbar() {
                   />
                 </svg>
               )}
-            </a>
           </Link>
-          <Link href="/contact">
-            <a
-              className={`text-base  ${
-                router.asPath === "/contact"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
+          <Link
+            href="/contact"
+            className={`text-base  ${
+              router.asPath === "/contact"
+                ? "text-gray-800 font-bold dark:text-gray-400"
+                : "text-gray-600 dark:text-gray-300 font-normal "
+            }`}
+          >
               Contact
               {router.asPath === "/contact" && (
                 <svg
@@ -135,7 +129,6 @@ export default function Navbar() {
                   />
                 </svg>
               )}
-            </a>
           </Link>
         </div>
 
@@ -143,6 +136,9 @@ export default function Navbar() {
 
           <a
             href={userData.socialLinks.twitter}
+            aria-label="X"
+            target="_blank"
+            rel="noreferrer"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -158,6 +154,9 @@ export default function Navbar() {
           </a>
           <a
             href={userData.socialLinks.linkedin}
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -205,26 +204,18 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="space-x-8 block md:hidden mt-4">
-        <Link href="/about">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            About
-          </a>
+      <div className="flex flex-wrap gap-x-6 gap-y-2 md:hidden mt-4">
+        <Link href="/about" className="text-base font-normal text-gray-600 dark:text-gray-300">
+          About
         </Link>
-        <Link href="/projects">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Projects
-          </a>
+        <Link href="/projects" className="text-base font-normal text-gray-600 dark:text-gray-300">
+          Web3 Work
         </Link>
-        <Link href="/experience">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Experience
-          </a>
+        <Link href="/experience" className="text-base font-normal text-gray-600 dark:text-gray-300">
+          Experience
         </Link>
-        <Link href="/contact">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Contact
-          </a>
+        <Link href="/contact" className="text-base font-normal text-gray-600 dark:text-gray-300">
+          Contact
         </Link>
       </div>
     </div>
