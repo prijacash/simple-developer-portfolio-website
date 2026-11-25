@@ -23,8 +23,11 @@ export default function Navbar() {
             <h1 className="font-semibold text-xl dark:text-gray-100">
               {userData.name}
             </h1>
-            <p className="text-sm sm:text-base font-light text-gray-500 dark:text-gray-300 mt-1 max-w-xs sm:max-w-none">
+            <p className="text-sm sm:text-base font-light text-gray-500 dark:text-gray-300 mt-1">
               {userData.tagline}
+            </p>
+            <p className="text-xs sm:text-sm font-medium tracking-wide text-gray-400 dark:text-gray-400 mt-1">
+              {userData.roles}
             </p>
           </Link>
         </div>

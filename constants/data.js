@@ -2,6 +2,7 @@ const userData = {
   name: "Prija Cash",
   fullName: "Prija Phaphouampheng",
   tagline: "Content Creator & Web3 Partnerships",
+  roles: "Creator · Operator · Producer",
   headline: "Prija Cash · Content Creator & Web3 Partnerships",
   avatarUrl: "/avatar.png",
   siteUrl: "https://simple-developer-portfolio-website-sigma.vercel.app",
