@@ -18,15 +18,9 @@ const userData = {
     },
     {
       title: "CHOMP",
-      label: "Creative lead",
+      label: "Built on Base",
       summary:
-        "Creator and meme work on Base. I direct the art for CHOMP, a memecoin there.",
-    },
-    {
-      title: "Base Ecosystem",
-      label: "Coinbase",
-      summary:
-        "Operations Coordinator, contract, 2024 - Present. United States · Remote.",
+        "Co-founder and head of operations, 2024 - Present. Marketing, day-to-day ops, and art direction. A developer handled the backend.",
       links: [{ label: "Experience", href: "/experience" }],
     },
     {
@@ -41,22 +35,22 @@ const userData = {
     lead: "I'm Prija Cash.",
     description: [
       "My full name is Prija Phaphouampheng.",
-      "I've launched meme projects on BNB Chain and Base. I'm the creative lead for CHOMP, a memecoin on Base, and I'm active in crypto circles on X.",
+      "I've launched meme projects on BNB Chain and Base. At CHOMP, a memecoin built on Base, I handle marketing, day-to-day operations, and art direction. A developer handled the backend. I'm active in crypto circles on X.",
     ],
     skill:
       "Runs a personal AI agent workflow that saves ~20 hours a week across content, scripts, and site builds.",
   },
   experience: [
     {
-      title: "Operations Coordinator",
-      company: "Base Ecosystem (Coinbase)",
+      title: "Co-founder & Head of Operations",
+      company: "CHOMP (built on Base)",
       year: "2024 - Present",
-      detail: "Contract, United States · Remote",
+      detail: "United States · Remote",
       era: "now",
       points: [
-        "Coordinate daily content production, vendor timelines, and deliverables across a distributed team",
-        "Organize events in partnership with Coinbase & Base leadership to drive ecosystem growth",
-        "Develop workflow SOPs and prepare performance reports and executive summaries for leadership",
+        "Ran marketing and day-to-day operations; coordinated content production, vendor timelines, and deliverables across a distributed team",
+        "Organized ecosystem events alongside the Base team to drive community growth",
+        "Developed workflow SOPs and prepared performance reports and summaries for the team",
       ],
     },
     {
@@ -65,13 +59,6 @@ const userData = {
       year: "Present",
       era: "now",
       desc: "Launched meme projects on BNB Chain and Base.",
-    },
-    {
-      title: "Creative lead",
-      company: "CHOMP",
-      year: "Present",
-      era: "now",
-      desc: "Art direction for CHOMP, a memecoin on Base.",
     },
     {
       title: "Personal AI workflow",
