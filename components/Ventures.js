@@ -10,11 +10,11 @@ export default function Ventures() {
     <div className="bg-[#F1F1F1] dark:bg-gray-900">
       <div className="max-w-6xl mx-auto px-4">
         <p className="pt-12 md:pt-16 text-base md:text-lg text-gray-600 dark:text-gray-300 text-center lg:text-left">
-          AI implementation for Blueprint AI Studio.
+          Content, creator, and community work on meme projects.
         </p>
         <header className="flex flex-col md:flex-row justify-between items-center pt-8 md:pt-10 mb-8 md:mb-12">
           <h1 className="text-6xl lg:text-8xl max-w-lg font-bold text-gray-500 my-8 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left">
-            Ventures
+            Web3 Work
           </h1>
           <Link href="/projects" className="mb-12 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
               <svg
@@ -36,7 +36,7 @@ export default function Ventures() {
           </Link>
         </header>
 
-        <div className="grid md:grid-cols-3 gap-8 pb-24 md:pb-40">
+        <div className="grid md:grid-cols-2 gap-8 pb-24 md:pb-40">
           {featured.map((venture, idx) => (
             <VentureCard
               key={venture.title}

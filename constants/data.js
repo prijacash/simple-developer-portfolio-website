@@ -1,7 +1,7 @@
 const userData = {
   name: "Prija Cash",
   fullName: "Prija Phaphouampheng",
-  designation: "Builder",
+  headline: "Prija Cash · Content Creator & Web3 Partnerships",
   avatarUrl: "/avatar.png",
   siteUrl: "https://simple-developer-portfolio-website-sigma.vercel.app",
   email: "prijacash@gmail.com",
@@ -9,43 +9,28 @@ const userData = {
   address: "Westminster, California",
   ventures: [
     {
-      title: "Blueprint AI Studio",
-      label: "AI implementation",
-      summary:
-        "An AI web agency for local businesses. One-page sites and Google listings for restaurants and salons.",
-      links: [
-        { label: "Website", href: "https://blueprintaistudio.com/" },
-      ],
-    },
-    {
       title: "Meme projects",
       label: "Content creator / producer",
-      summary: "Meme projects I launched on BNB Chain and Base.",
+      summary:
+        "Content and creator work. Meme projects I launched on BNB Chain and Base.",
     },
     {
       title: "CHOMP",
       label: "Creative lead",
-      summary: "A memecoin on Base. I direct the art.",
+      summary:
+        "Creator and meme work on Base. I direct the art for CHOMP, a memecoin there.",
     },
   ],
   about: {
-    lead: "I'm Prija Cash. I build with",
+    lead: "I'm Prija Cash.",
     description: [
       "My full name is Prija Phaphouampheng.",
-      "Blueprint AI Studio is a local-business AI web agency. I do the AI implementation: one-page sites and Google listings for restaurants and salons.",
       "I've launched meme projects on BNB Chain and Base. I'm the creative lead for CHOMP, a memecoin on Base, and I'm active in crypto circles on X.",
-      "I run a multi-agent AI workflow with Cursor and AI agents. It saves about 20 hours a week and lets me go from an idea to shipped content, sites, and scripts the same day.",
     ],
+    skill:
+      "Runs a personal AI agent workflow that saves ~20 hours a week across content, scripts, and site builds.",
   },
   experience: [
-    {
-      title: "AI implementation",
-      company: "Blueprint AI Studio",
-      year: "Present",
-      companyLink: "https://blueprintaistudio.com/",
-      era: "now",
-      desc: "A local-business AI web agency. One-page sites and Google listings for restaurants and salons.",
-    },
     {
       title: "Content creator / producer",
       company: "BNB Chain & Base",
@@ -61,10 +46,10 @@ const userData = {
       desc: "Art direction for CHOMP, a memecoin on Base.",
     },
     {
-      title: "Multi-agent AI workflow",
+      title: "Personal AI workflow",
       year: "Present",
       era: "now",
-      desc: "Cursor and AI agents. Saves about 20 hours a week. Idea to shipped content, sites, and scripts the same day.",
+      desc: "Runs a personal AI agent workflow that saves ~20 hours a week across content, scripts, and site builds.",
     },
     {
       title: "Crypto & NFT Consultant",
@@ -91,7 +76,6 @@ const userData = {
   socialLinks: {
     twitter: "https://twitter.com/prijacash",
     linkedin: "https://www.linkedin.com/in/prijacash/",
-    blueprint: "https://blueprintaistudio.com/",
   },
 };
 

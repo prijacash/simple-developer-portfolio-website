@@ -15,17 +15,14 @@ export default function Navbar() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
-      <div className="flex  md:flex-row justify-between items-center">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         {/* Logo / Home / Text */}
 
         <div className="flex flex-col">
-          <Link href="/">
-            <h1 className="font-semibold text-xl dark:text-gray-100">
-              {userData.name}
+          <Link href="/" className="max-w-xs sm:max-w-sm">
+            <h1 className="font-semibold text-base sm:text-lg md:text-xl leading-snug dark:text-gray-100">
+              {userData.headline}
             </h1>
-            <p className="text-base font-light text-gray-500 dark:text-gray-300">
-              {userData.designation}
-            </p>
           </Link>
         </div>
 
@@ -63,7 +60,7 @@ export default function Navbar() {
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
-              Ventures
+              Web3 Work
               {router.asPath === "/projects" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +206,7 @@ export default function Navbar() {
           About
         </Link>
         <Link href="/projects" className="text-base font-normal text-gray-600 dark:text-gray-300">
-          Ventures
+          Web3 Work
         </Link>
         <Link href="/experience" className="text-base font-normal text-gray-600 dark:text-gray-300">
           Experience

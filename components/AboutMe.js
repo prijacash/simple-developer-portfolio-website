@@ -3,34 +3,24 @@ import userData from "@constants/data";
 
 const socialLinks = [
   { name: "LinkedIn", href: userData.socialLinks.linkedin },
-  { name: "Blueprint AI Studio", href: userData.socialLinks.blueprint },
   { name: "X", href: userData.socialLinks.twitter },
 ];
 
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 px-4">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+      <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800 px-4 pt-2 pb-8 md:pb-12">
+        <h1 className="text-5xl md:text-8xl font-bold leading-none text-center md:text-left">
           About
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
-        <div className="text-container max-w-6xl mx-auto pt-20">
+      <div className="bg-[#F1F1F1] dark:bg-gray-900">
+        <div className="text-container max-w-6xl mx-auto pt-10 md:pt-14">
           <p
             className="leading-loose text-2xl md:text-4xl font-semibold mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.lead}{" "}
-            <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.socialLinks.blueprint}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Blueprint AI Studio
-            </a>
-            .
+            {userData.about.lead}
           </p>
         </div>
       </div>
@@ -88,10 +78,10 @@ export default function AboutMe() {
             ))}
 
             <h2 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50 mt-8">
-              Tools
+              Skills
             </h2>
             <p className="text-xl text-gray-700 dark:text-gray-300 mt-8">
-              Cursor and AI agents.
+              {userData.about.skill}
             </p>
           </div>
         </div>

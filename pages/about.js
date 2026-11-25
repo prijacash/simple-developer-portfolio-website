@@ -4,10 +4,7 @@ import AboutMe from "../components/AboutMe";
 
 export default function about() {
   return (
-    <ContainerBlock
-      title="About — Prija Cash"
-      description="Prija Cash does AI implementation for Blueprint AI Studio and works in crypto and AI."
-    >
+    <ContainerBlock>
       <AboutMe />
     </ContainerBlock>
   );
