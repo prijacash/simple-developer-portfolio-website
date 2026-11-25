@@ -2,7 +2,6 @@ const userData = {
   name: "Prija Cash",
   fullName: "Prija Phaphouampheng",
   tagline: "Content Creator & Web3 Partnerships",
-  roles: "Creator · Operator · Producer",
   headline: "Prija Cash · Content Creator & Web3 Partnerships",
   avatarUrl: "/avatar.png",
   siteUrl: "https://simple-developer-portfolio-website-sigma.vercel.app",
@@ -52,19 +51,6 @@ const userData = {
         "Organized ecosystem events alongside the Base team to drive community growth",
         "Developed workflow SOPs and prepared performance reports and summaries for the team",
       ],
-    },
-    {
-      title: "Content creator / producer",
-      company: "BNB Chain & Base",
-      year: "Present",
-      era: "now",
-      desc: "Launched meme projects on BNB Chain and Base.",
-    },
-    {
-      title: "Personal AI workflow",
-      year: "Present",
-      era: "now",
-      desc: "Runs a personal AI agent workflow that saves ~20 hours a week across content, scripts, and site builds.",
     },
     {
       title: "Production Manager",
