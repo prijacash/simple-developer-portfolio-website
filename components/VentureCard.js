@@ -20,17 +20,20 @@ export default function VentureCard({ title, summary, label, links, number }) {
       </p>
       {links?.length ? (
         <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2">
-          {links.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              target="_blank"
-              rel="noreferrer"
-              className="font-semibold text-gray-800 dark:text-gray-100 border-b-2 border-gray-800 dark:border-gray-100"
-            >
-              {link.label}
-            </a>
-          ))}
+          {links.map((link) => {
+            const external = link.href.startsWith("http");
+            return (
+              <a
+                key={link.href}
+                href={link.href}
+                target={external ? "_blank" : undefined}
+                rel={external ? "noreferrer" : undefined}
+                className="font-semibold text-gray-800 dark:text-gray-100 border-b-2 border-gray-800 dark:border-gray-100"
+              >
+                {link.label}
+              </a>
+            );
+          })}
         </div>
       ) : null}
     </article>

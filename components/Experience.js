@@ -29,9 +29,11 @@ export default function Experience() {
                 <ExperienceCard
                   title={exp.title}
                   desc={exp.desc}
+                  points={exp.points}
                   year={exp.year}
                   company={exp.company}
                   companyLink={exp.companyLink}
+                  detail={exp.detail}
                 />
                 {next ? (
                   eraChangesNext ? (
@@ -54,10 +56,23 @@ export default function Experience() {
   );
 }
 
-const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
+const ExperienceCard = ({
+  title,
+  desc,
+  points,
+  year,
+  company,
+  companyLink,
+  detail,
+}) => {
+  const longYear = year && year.length > 9;
   return (
     <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
-      <p className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-400 font-bold dark:text-gray-500">
+      <p
+        className={`absolute -top-10 left-0 md:-left-10 md:-top-10 font-bold text-gray-400 dark:text-gray-500 ${
+          longYear ? "text-lg md:text-2xl max-w-[16rem]" : "text-4xl"
+        }`}
+      >
         {year}
       </p>
       <h2 className="font-semibold text-xl text-gray-800 dark:text-gray-100">
@@ -77,7 +92,18 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
           <p className="text-gray-500 dark:text-gray-400">{company}</p>
         )
       ) : null}
-      <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+      {detail ? (
+        <p className="text-sm text-gray-500 dark:text-gray-400">{detail}</p>
+      ) : null}
+      {points?.length ? (
+        <ul className="list-disc pl-5 text-gray-600 dark:text-gray-400 my-2 space-y-1">
+          {points.map((point) => (
+            <li key={point}>{point}</li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+      )}
     </div>
   );
 };

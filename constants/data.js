@@ -20,6 +20,13 @@ const userData = {
       summary:
         "Creator and meme work on Base. I direct the art for CHOMP, a memecoin there.",
     },
+    {
+      title: "HyperJump",
+      label: "BNB Chain",
+      summary:
+        "Business Development Manager, full-time, global, Jun 2020 - Jun 2021.",
+      links: [{ label: "Experience", href: "/experience" }],
+    },
   ],
   about: {
     lead: "I'm Prija Cash.",
@@ -61,9 +68,15 @@ const userData = {
     },
     {
       title: "Business Development Manager",
-      year: "2020-2021",
+      company: "HyperJump (BNB Chain / BSC)",
+      year: "Jun 2020 - Jun 2021",
+      detail: "Full-time, Global",
       era: "earlier",
-      desc: "Generated over $50k in new business and helped grow crypto assets under management by $300 million.",
+      points: [
+        "Generated over $50k a week by onboarding new clients to the platform",
+        "Grew crypto assets under management by $300 million",
+        "Worked weekly with founders, developers, and the marketing team",
+      ],
     },
     {
       title: "Earlier builds",
